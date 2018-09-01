@@ -1,5 +1,6 @@
 # coding: utf-8
 from __future__ import print_function
+from pprint import pprint
 import re
 import requests
 import w3lib
@@ -79,7 +80,7 @@ def spider(uid):
     item['works'] = works
     item['like_num'] = like_num
     item['info'] = info
-    print(item)
+    pprint(item)
 
 
 def jiexi(lists):
